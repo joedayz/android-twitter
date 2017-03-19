@@ -65,7 +65,10 @@ public class ImagesFragment extends Fragment
         ButterKnife.bind(this, view);
 
         setupInjection();
+
         setupRecyclerView();
+
+
         imagesPresenter.getImageTweets();
 
         return view;

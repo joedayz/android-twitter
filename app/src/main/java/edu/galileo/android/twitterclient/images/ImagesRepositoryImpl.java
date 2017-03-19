@@ -24,6 +24,7 @@ public class ImagesRepositoryImpl implements ImagesRepository {
     private final CustomTwitterApiClient client;
     private final static int TWEET_COUNT = 100;
 
+
     public ImagesRepositoryImpl(CustomTwitterApiClient client, EventBus eventBus) {
         this.client = client;
         this.eventBus = eventBus;

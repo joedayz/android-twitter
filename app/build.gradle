@@ -40,6 +40,7 @@ android {
             buildConfigField "String", "TWITTER_SECRET", project.property('TWITTER_SECRET')
         }
     }
+    buildToolsVersion '25.0.0'
 }
 
 dependencies {

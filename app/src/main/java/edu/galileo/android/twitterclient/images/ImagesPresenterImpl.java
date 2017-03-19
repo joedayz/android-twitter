@@ -4,6 +4,8 @@ import org.greenrobot.eventbus.Subscribe;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import edu.galileo.android.twitterclient.images.entities.Image;
 import edu.galileo.android.twitterclient.images.events.ImagesEvent;
 import edu.galileo.android.twitterclient.images.ui.ImagesView;
@@ -16,6 +18,7 @@ public class ImagesPresenterImpl implements ImagesPresenter {
     private EventBus eventBus;
     private ImagesView imagesView;
     private final ImagesInteractor imagesInteractor;
+
 
     public ImagesPresenterImpl(ImagesView imagesView, ImagesInteractor imagesInteractor, EventBus eventBus) {
         this.eventBus = eventBus;

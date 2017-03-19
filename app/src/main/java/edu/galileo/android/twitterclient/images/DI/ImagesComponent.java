@@ -14,6 +14,5 @@ import edu.galileo.android.twitterclient.lib.di.LibsModule;
 @Singleton @Component(modules = {ImagesModule.class, LibsModule.class})
 public interface ImagesComponent {
     void inject(ImagesFragment fragment);
-    //ImagesPresenter getPresenter();
 }
 
